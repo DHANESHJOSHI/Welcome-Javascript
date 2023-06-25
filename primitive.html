@@ -16,9 +16,11 @@
         <li>let isApproved = false; //Boolean Literal</li>
         <li>let firstName = undefined;</li>
         <li>let lastName =  null;  //this is only used when you have confirmed value</li>
+
+        <label for="log">Primitive Output</label> <p id="log"></p>
+        <script src="js/primitive.js"></script>
     </details>
     <h1>JavaScript &nbsp; &dash; &nbsp; Dynamic Language    </h1>
-        
     <details>
         <summary>
             JavaScript&nbsp;&dash;&nbsp; Typeof
@@ -27,11 +29,9 @@
          string = name   //not work in run time when data has changed
          <li>Dynamic</li>
         let name = 'Techwithjoshi'; // this will work on runtime when data has changed
-
     </details>
 
     <h1>JavaScript &nbsp; &dash; &nbsp; Reference Type    </h1>
-        
     <details>
         <summary>
             JavaScript&nbsp;&dash;&nbsp; Reference Type [Object, Array, Function]
@@ -55,6 +55,8 @@
                         //Bracket Notation <br>
                         person['name'] = 'Joshi'; <br>
                     </object>
+                    <p id="obj"></p>
+                    <script src="js/object.js"></script>
                 </details>
                 &nbsp;
             <details>
@@ -63,6 +65,8 @@
                 let setcolor = ['red', 'blue']; <br>
                 setcolor[2] = 1; // add element to  array <br>
                 console.log(setcolor[1]); //[] indicate the index value <br>
+                Output: <p id="arr"> </p>
+                <script src="js/array.js"></script>
             </details>
             &nbsp;
             <details>
@@ -86,6 +90,10 @@
                 // calling 2 fn at time  <br>
                 console.log(square(2)); <br>
             </details>
+            Output:<p id="greeting"></p>
+            Output Calculation<p id="result1"></p>
+            <p id="result2"></p>
+            <script src="js/function.js"></script>
         </details>
 
 </body>
